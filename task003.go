@@ -1,10 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
-	var i int
-	fmt.Scan(&i)
-	fmt.Println(i * *2)
+	var (
+		A, B int
+	)
 
+	fmt.Fscan(os.Stdin, &A)
+	fmt.Fscan(os.Stdin, &B)
+	resulr := (A + B)
+	s := resulr * resulr
+	fmt.Println(s)
 }
