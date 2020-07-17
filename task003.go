@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("HEllo")
+	var i int
+	fmt.Scan(&i)
+	fmt.Println(i * *2)
 
 }
