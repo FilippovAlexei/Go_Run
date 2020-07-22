@@ -12,17 +12,7 @@ func main() {
 
 	fmt.Fscan(os.Stdin, &A)
 	fmt.Fscan(os.Stdin, &B)
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	resulr := (A + B)
-	s := resulr * resulr
-=======
-	resulr := (A * *B)
-	//s := resulr * B
->>>>>>> Stashed changes
-=======
-	resulr := (A * *B)
-	//s := resulr * B
->>>>>>> Stashed changes
+	resulr := (A  B)
+	s := resulr * B
 	fmt.Println(s)
 }
